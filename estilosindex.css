@@ -1,0 +1,122 @@
+/* estilosindex.css */
+
+/* Colores de fondo y texto */
+body {
+    background-color: #f4f4f4;
+    color: #333333;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0066cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+.mi-clase { width: 30%; }
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* Tipografía */
+h1, h2 {
+    font-family: 'Georgia', serif;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #0066cc;
+    margin-top: 20px;
+}
+
+p, li, td {
+    font-size: 1em;
+}
+
+/* Diseño de la tabla */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+th {
+    background-color: #0066cc;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #e6f7ff;
+}
+
+/* Margenes, bordes, sombras y transiciones */
+.contenido {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+p, ol {
+    margin-bottom: 15px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+/* Menú de navegación */
+#menu_superior {
+    text-align: center;
+}
+
+#menu_superior div {
+    display: inline-block;
+    padding: 10px;
+}
+
+.mi-video { width: 30%; }
+
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
